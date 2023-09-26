@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Awesome go-echarts</title>
+    <script src="https://go-echarts.github.io/go-echarts-assets/assets/echarts.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="item" id="rdBkEcydIhEo" style="width:900px;height:500px;"></div>
+</div>
+
+<script type="text/javascript">
+    "use strict";
+    let goecharts_rdBkEcydIhEo = echarts.init(document.getElementById('rdBkEcydIhEo'), "white");
+    let option_rdBkEcydIhEo = {"animation":true,"color":["#5470c6","#91cc75","#fac858","#ee6666","#73c0de","#3ba272","#fc8452","#9a60b4","#ea7ccc"],"dataZoom":[{"type":"inside","start":10,"end":50}],"legend":{"show":true,"type":"","right":"80px"},"series":[{"name":"Bolso","type":"bar","smooth":false,"connectNulls":false,"showSymbol":false,"waveAnimation":false,"renderLabelForZeroData":false,"selectedMode":false,"animation":false,"data":[{"value":10},{"value":23},{"value":45},{"value":67}]},{"name":"Lula","type":"bar","smooth":false,"connectNulls":false,"showSymbol":false,"waveAnimation":false,"renderLabelForZeroData":false,"selectedMode":false,"animation":false,"data":[{"value":90},{"value":77},{"value":55},{"value":33}]}],"title":{"text":"Gráfico eleições interativo"},"toolbox":{"show":true,"right":"50%","feature":{"saveAsImage":{"show":true,"png":"png","title":"Download image"},"brush":null,"dataView":{"show":true,"title":"DataView","lang":["data view","turn off","refresh"],"backgroundColor":""}}},"tooltip":{"show":true},"xAxis":[{"name":"Estado","data":["SP","RJ","ES","MG"]}],"yAxis":[{"name":"Porcentagem de votos"}]}
+;
+    
+	let action_rdBkEcydIhEo = {"areas":{},"type":""}
+;
+    
+    goecharts_rdBkEcydIhEo.setOption(option_rdBkEcydIhEo);
+ 	goecharts_rdBkEcydIhEo.dispatchAction(action_rdBkEcydIhEo);
+</script>
+
+<style>
+    .container {margin-top:30px; display: flex;justify-content: center;align-items: center;}
+    .item {margin: auto;}
+</style>
+</body>
+</html>
